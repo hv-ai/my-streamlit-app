@@ -10,10 +10,10 @@ import os
 from dotenv import load_dotenv
 
 
-os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
+os.environ["OPENAI_API_KEY"]="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"
 ## Langmith tracking
 os.environ["LANGCHAIN_TRACING_V2"]="true"
-os.environ["LANGCHAIN_API_KEY"]=os.gaenv("LANGCHAIN_API_KEY")
+os.environ["LANGCHAIN_API_KEY"]="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"
 
 prompt =ChatPromptTemplate.from_messages(
 
